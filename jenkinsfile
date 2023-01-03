@@ -17,7 +17,7 @@ stage('build')
    sh "${mavenhome}/bin/mvn clean package"
  
 }
-/*
+
 stage('executesonarqubereport')
 {
  sh "${mavenhome}/bin/mvn sonar:sonar"
@@ -39,5 +39,5 @@ stage('deployApptoTomcat')
 	}
 
 }
-*/
+
 }
